@@ -1,5 +1,5 @@
 import React from 'react';
-import fotoBilqis from '../assets/bilqis.jpg'; // Pastikan nama file foto sudah disesuaikan di folder assets
+import fotoBilqis from '../assets/hero.png'; // Pastikan nama file foto sudah disesuaikan di folder assets
 
 const profilebilqis = () => {
   const data = {
