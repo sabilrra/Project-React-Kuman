@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom' // Nah, kita import Link di sini
 import './App.css'
 import ProfileSyafiq from './pages/profilesyafiq'
+import Home from "./pages/profilesyafiq";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
                 Lihat Profil Syafiq
               </button>
             </Link>
-            
+
           </div>
         } />
         

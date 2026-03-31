@@ -3,18 +3,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-/* Mempercantik scrollbar (Opsional) */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #0f172a;
-}
-::-webkit-scrollbar-thumb {
-  background: #1e293b;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #2dd4bf;
-}
