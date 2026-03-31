@@ -1,8 +1,10 @@
 import { useState, useRef } from "react";
+// --- BARIS KODE BARU (IMPORT FOTO PERMANEN) ---
+import FotoSabila from "../assets/sabila.jpeg"; 
 
 function Sabila() {
   const [isEditing, setIsEditing] = useState(false);
-  const [profilePhoto, setProfilePhoto] = useState(null);
+  const [profilePhoto, setProfilePhoto] = useState(FotoSabila); 
   const fileInputRef = useRef(null);
 
   const handleUploadClick = () => {
