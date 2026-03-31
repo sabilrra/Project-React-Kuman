@@ -1,13 +1,12 @@
 @import "tailwindcss";
 
-/* Membuat pergerakan scroll jadi halus saat klik Navbar */
 html {
   scroll-behavior: smooth;
 }
 
-/* Opsional: Menghilangkan scrollbar biar lebih clean di desktop */
+/* Mempercantik scrollbar (Opsional) */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
   background: #0f172a;
