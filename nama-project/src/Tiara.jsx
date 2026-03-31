@@ -1,7 +1,7 @@
 import React from 'react';
 
-// Kamu bisa ganti URL foto ini dengan foto profilmu sendiri nanti
-const fotoProfilTiara = "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400&auto=format&fit=crop";
+import fotoTiara dari './assets/fotoTiara.jpeg';
+const fotoProfilTiara = fotoTiara;
 
 function Tiara() {
   return (
