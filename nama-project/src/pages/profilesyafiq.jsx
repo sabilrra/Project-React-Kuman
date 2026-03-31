@@ -90,8 +90,8 @@ const profilesyafiq = () => {
                 </div>
 
                 <div className="sm:col-span-2 bg-slate-900/50 border border-slate-800 p-6 rounded-2xl hover:border-teal-500/40 transition-all">
-                  <h4 className="text-[10px] font-black uppercase text-teal-500 tracking-[0.2em] mb-2">Program Studi</h4>
-                  <p className="text-xl text-white font-bold">{data.prodi} — {data.fakultas}</p>
+                  <h4 className="text-[10px] font-black uppercase text-teal-500 tracking-[0.2em] mb-2">Study Program</h4>
+                  <p className="text-xl text-white font-bold">{data.prodi}</p>
                 </div>
 
                 <div className="sm:col-span-2 bg-slate-900/50 border border-slate-800 p-6 rounded-2xl hover:border-teal-500/40 transition-all">
