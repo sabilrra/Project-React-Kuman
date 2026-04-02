@@ -1,6 +1,6 @@
 import React from 'react';
 
-import fotoTiara dari './assets/fotoTiara.jpeg';
+import fotoTiara from './assets/fotoTiara.jpeg';
 const fotoProfilTiara = fotoTiara;
 
 function Tiara() {
@@ -51,9 +51,9 @@ function Tiara() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 pt-4 border-t border-gray-100">
               {[
-                { label: "Kelas", value: "Teknologi Informasi - A", icon: "🏫" }, // KELAS
-                { label: "Jurusan", value: "S1 Teknologi Informasi", icon: "💻" }, // JURUSAN
-                { label: "Fakultas", value: "Fakultas Ilmu Komputer", icon: "🏛️" },
+                { label: "Kelas", value: "Teknologi Informasi - G", icon: "🏫" }, // KELAS
+                { label: "Jurusan", value: "D3 Teknologi Informasi", icon: "💻" }, // JURUSAN
+                { label: "Fakultas", value: "Fakultas Vokasi", icon: "🏛️" },
                 { label: "Domisili", value: "Malang, Jawa Timur", icon: "📍" }, // DOMISILI
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-4 bg-gray-50 p-4 rounded-xl border border-gray-100 shadow-sm hover:border-indigo-100 transition">
@@ -79,14 +79,14 @@ function Tiara() {
           
           <div className="prose prose-indigo max-w-none text-gray-700 leading-relaxed text-lg text-justify">
             <p className="font-medium text-gray-800">
-               Halo semua! Perkenalkan, nama lengkap saya adalah Tiara Rizki Anindita. Saya merupakan seorang mahasiswi TI yang saat ini sedang menempuh pendidikan tahun kedua di Universitas Brawijaya, Malang. 
-            </p>
-            <p>
-               Ketertarikan saya pada dunia Teknologi Informasi bermula sejak masa sekolah menengah, di mana saya sering mengutak-atik tema blog dan merasa sangat puas ketika berhasil mengubah tampilan sebuah halaman web hanya dengan beberapa baris kode. Pengalaman sederhana itulah yang akhirnya memantapkan langkah saya untuk memilih jurusan Teknologi Informasi. Saya memiliki antusiasme yang sangat tinggi dalam mengeksplorasi perkembangan teknologi web modern, terutama dalam menguasai framework JavaScript seperti React.js dan utility-first CSS framework seperti Tailwind CSS, yang saya gunakan dalam membangun portofolio ini. Bagi saya, koding bukan sekadar tentang memberikan instruksi pada komputer, melainkan sebuah seni untuk memecahkan masalah kompleks dan menciptakan pengalaman pengguna yang intuitif, inklusif, dan solutif.
-            </p>
-            <p>
-               Di luar aktivitas akademik, saya senang mengikuti berbagai *workshop* online dan komunitas developer untuk memperluas wawasan serta jaringan profesional. Saya adalah tipe orang yang sangat menikmati proses belajar, kolaboratif, dan tidak mudah menyerah ketika menghadapi *bug*. Aspirasi karier saya di masa depan adalah dapat berkontribusi secara nyata sebagai seorang Front-End Developer di perusahaan teknologi terkemuka di Indonesia, menciptakan aplikasi web yang berdampak positif bagi masyarakat luas, dan terus tumbuh menjadi seorang profesional TI yang handal. Melalui portofolio sederhana ini, saya berharap dapat mendemonstrasikan kemampuan koding React dan Tailwind CSS saya kepada dosen dan teman-teman, sekaligus menjadi bukti awal perjalanan panjang saya di industri teknologi.
-            </p>
+  Halo semua! Perkenalkan, nama lengkap saya adalah Tiara Rizki Anindita. Saya merupakan seorang mahasiswi Teknologi Informasi yang saat ini sedang menempuh pendidikan tahun pertama (semester 2) di Universitas Brawijaya, Malang. 
+</p>
+<p>
+  Ketertarikan saya pada dunia Teknologi Informasi bermula sejak masa sekolah menengah, di mana saya senang mengeksplorasi tampilan visual dan merasa puas ketika berhasil mengubah elemen sederhana di halaman web. Pengalaman itulah yang memantapkan langkah saya untuk memilih jurusan TI. Saat ini, fokus utama saya adalah menyelesaikan tugas-tugas perkuliahan dengan sebaik mungkin sambil memperdalam pemahaman saya mengenai pengembangan web secara mandiri. Saya sedang belajar sungguh-sungguh untuk menguasai framework React.js dan Tailwind CSS melalui proyek-proyek praktikum seperti yang saya buat saat ini. Bagi saya, koding adalah sarana untuk melatih logika dan ketelitian dalam memecahkan masalah teknis yang ada di setiap baris kode.
+</p>
+<p>
+  Di keseharian saya sebagai mahasiswi, saya sangat menikmati proses belajar hal-hal baru dari setiap mata kuliah yang saya ambil. Saya adalah tipe orang yang mencoba untuk terus tekun, kolaboratif saat kerja kelompok, dan selalu berusaha tidak menyerah meskipun seringkali bertemu dengan error atau bug yang membingungkan saat mengerjakan tugas koding. Aspirasi saya di masa depan adalah bisa menjadi seorang pengembang web yang handal dan profesional yang bisa memberikan dampak positif. Melalui pembuatan portofolio ini, saya berharap dapat mendemonstrasikan hasil belajar saya dalam menggunakan React dan Tailwind CSS kepada dosen dan teman-teman, sekaligus menjadi langkah awal bagi saya untuk terus berkembang di dunia teknologi informasi yang sangat luas ini.
+</p>
             {/* Teks di atas sudah lebih dari 200 kata, aman untuk syarat nilai penuh */}
           </div>
         </section>
