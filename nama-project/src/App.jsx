@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom' // Nah, ki
 import './App.css'
 import ProfileSyafiq from './pages/profilesyafiq'
 import Home from "./pages/profilesyafiq";
+import ProfileBilqis from './pages/profilebilqis'
 
 function App() {
   return (
@@ -35,6 +36,37 @@ function App() {
         {/* Rute ke profil lu */}
         <Route path="/syafiq" element={<ProfileSyafiq />} />
       </Routes>
+
+      <Routes>
+        {/* Halaman Home sekarang ada tombolnya */}
+        <Route path="/" element={
+          <div style={{textAlign: "center", marginTop: "100px"}}>
+            <h1>Halo! Ini Halaman Utama Tim Kuman</h1>
+            <p>Klik tombol di bawah untuk melihat profil anggota:</p>
+            
+            {/* Ini tombol buat ke halaman Bilqis */}
+            <Link to="/bilqis">
+              <button style={{
+                padding: "10px 20px", 
+                fontSize: "16px", 
+                cursor: "pointer", 
+                backgroundColor: "#007BFF", 
+                color: "white", 
+                border: "none", 
+                borderRadius: "5px",
+                marginTop: "10px"
+              }}>
+                Lihat Profil Bilqis
+              </button>
+            </Link>
+
+          </div>
+        } />
+        
+        {/* Rute ke profil lu */}
+        <Route path="/bilqis" element={<ProfileBilqis />} />
+      </Routes>
+      
     </BrowserRouter>
   )
 }
