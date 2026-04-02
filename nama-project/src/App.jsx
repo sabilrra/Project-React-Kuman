@@ -5,7 +5,6 @@ import ProfileBilqis from './pages/profilebilqis'
 import ProfileSabila from './pages/profilesabila'
 import ProfileTiara from './pages/profiletiara'
 
-// Komponen Home dipisah biar kodingan App.jsx gak kepanjangan
 const Home = () => {
   const members = [
     { name: "Syafiq", path: "/syafiq", color: "from-teal-500 to-blue-600" },
@@ -48,7 +47,6 @@ const Home = () => {
         ))}
       </div>
 
-      {/* Footer Simple */}
       <footer className="mt-20 text-slate-600 text-[10px] uppercase tracking-[0.4em]">
         Project PemWeb I &copy; 2026
       </footer>
