@@ -1,6 +1,6 @@
 import React from 'react';
 
-import fotoTiara from '../assets/hero.png'; // Tambah satu titik lagi untuk keluar folder pages
+import fotoTiara from '../assets/fotoTiara.jpeg'; // Tambah satu titik lagi untuk keluar folder pages
 const fotoProfilTiara = fotoTiara;
 
 function Tiara() {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import fotoTiara from './assets/fotoTiara.jpeg';
+import fotoTiara from '../assets/fotoTiara.jpeg';
 const fotoProfilTiara = fotoTiara;
 
 function Tiara() {
