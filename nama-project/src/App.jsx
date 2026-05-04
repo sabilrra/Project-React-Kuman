@@ -46,7 +46,6 @@ const Home = () => {
           </Link>
         ))}
       </div>
-
       <footer className="mt-20 text-slate-600 text-[10px] uppercase tracking-[0.4em]">
         Project PemWeb I &copy; 2026
       </footer>
